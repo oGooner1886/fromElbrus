@@ -1,0 +1,113 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap");
+.wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "IBM Plex Mono";
+}
+
+.title {
+  color: #4520AB;
+  font-weight: 600;
+  padding: 44px 0 86px;
+  font-size: 20px;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.text__field-group {
+  position: relative;
+  margin-bottom: 60px;
+}
+.text__field-input {
+  max-width: 500px;
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+  border: 2px solid #7BA7AB;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: -0.05em;
+  color: hsla(0deg, 0%, 7%, 0.4);
+  padding: 17px 0 15px 21px;
+  border: 2px solid #111111;
+  border-radius: 14px;
+}
+.text__field-btn {
+  position: absolute;
+  top: 10px;
+  right: -10px;
+  width: 107px;
+  height: 38px;
+  background: #111111;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.03em;
+  transition: 0.1s;
+}
+.text__field-btn:active {
+  text-decoration: none;
+  transform: scale(0.9);
+}
+
+.dictionary {
+  margin-bottom: 60px;
+}
+
+/* flex-контейнер */
+.dictionary__row {
+  background: #F0F0F0;
+  border-radius: 8px;
+  border: 2px solid #F0F0F0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* flex-элемент */
+.dictionary__element {
+  border-bottom: 1px solid #111111;
+  flex: 0 1 50%;
+}
+
+/* flex-элемент №1 */
+/* flex-элемент №2 */
+/* flex-элемент №3 */
+/* flex-элемент №4 */
+/* контент */
+.dict-rus {
+  background: #F0F0F0;
+  border-right: 2px solid #111111;
+}
+
+.dict-eng {
+  background: #ADADAD;
+  background-image: url(/Group1.svg);
+  background-repeat: no-repeat;
+  background-position: 220px;
+}
+
+.reset {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #0F0F0F;
+  background: #ADADAD;
+  border-radius: 8px;
+  padding: 6px 10px 8px;
+  gap: 10px;
+  width: 190px;
+  height: 38px;
+  border: none;
+}
+
+span {
+  position: relative;
+  top: 3px;
+}
